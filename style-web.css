@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+header {
+    background: rgb(202, 130, 5);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.pluma {
+    width: 50px;
+    height: 60px;
+}
+
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    gap: 150px;
+}
+
+.navbar-list {
+    gap: 30px;
+}
+
+.navbar-list a {
+    color: rgb(143, 1, 1);
+    font-size: 20px;
+}
+
+.navbar-list li:first-child>a {
+    color: rgb(95, 10, 10);
+    font-weight: 700;
+}
+
+main {
+    background: rgb(238, 159, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 55px;
+    width: 80%;
+    min-width: 550px;
+    font-weight: 800;
+    color: rgb(247, 220, 220);
+}
+
+.hero-info p {
+    font-size: 17px;
+    width: 70%;
+    color: antiquewhite;
+}
+
+.hero-info span {
+    color: black;
+}
+
+.hero-info a {
+    color: brown;
+    background: rgb(255, 100, 100);
+    width: 120px;
+    padding: 8px 0px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.hero-card img {
+    width: 50%;
+    height: 70%;
+}
+
+footer {
+    background: rgb(219, 143, 3);
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+
+
+}
