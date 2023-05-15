@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style-type: none;
 
+
 }
 
 header {
@@ -38,7 +39,7 @@ header {
 }
 
 .navbar {
-    gap: 150px;
+    gap: 40px;
 }
 
 .navbar-list {
@@ -59,11 +60,11 @@ main {
     background: rgb(238, 159, 12);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: white;
     width: 100%;
-
+    height: 100%;
 }
 
 #hero {
@@ -71,15 +72,24 @@ main {
     padding: 70px 0px;
     max-width: 1200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .hero-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     gap: 20px;
-    width: 50%;
+    width: 80%;
 }
 
 .hero-info h1 {
@@ -94,6 +104,7 @@ main {
     font-size: 17px;
     width: 70%;
     color: antiquewhite;
+    padding: 20px;
 }
 
 .hero-info span {
@@ -103,20 +114,109 @@ main {
 .hero-info a {
     color: brown;
     background: rgb(255, 100, 100);
-    width: 120px;
+    width: 150px;
     padding: 8px 0px;
     font-size: 17px;
     text-align: center;
     border-radius: 1rem;
     font-weight: 500;
+
 }
 
-.hero-card img {
-    width: 50%;
+.hero-card {
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+    padding: 2rem
+}
+
+.trabajos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+
+}
+
+.caja {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     height: 70%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
 }
 
-footer {
+.caja-anime {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background: rgb(207, 104, 6);
+    box-shadow: 10px 10px 5px 5px rgba(131, 76, 3, 0.75);
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+
+}
+
+.durara {
+    background-image: url(./img/durarara.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mushishi {
+    background-image: url(./img/mushishi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.eureka {
+    background-image: url(./img/Eureka_Seven.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.monster {
+    background-image: url(./img/monster.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hellsing {
+    background-image: url(./img/hellsing.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.gto {
+    background-image: url(./img/GTO.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.caja .caja-anime a {
+    color: brown;
+    width: ;
+    padding: 8px 0px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 1rem;
+    font-weight: 1000;
+    box-shadow: 10px 10px 20px 20px rgba(31, 30, 30, 0.75);
+
+}
+
+
+
+/*footer {
     background: rgb(219, 143, 3);
     padding: 2rem;
     text-align: center;
@@ -126,4 +226,4 @@ footer {
     height: 200px;
 
 
-}
+}*/
